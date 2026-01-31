@@ -166,6 +166,25 @@ elseif vim.g.material_style == "deep ocean" then
     colors.editor.accent       = "#84FFFF"
     colors.syntax.comments     = "#464B5D"
 
+elseif vim.g.material_style == "volcano" then
+    -- Volcano theme style (ported from IntelliJ Material Theme)
+
+    colors.editor.bg           = "#390000"
+    colors.editor.bg_alt       = "#300000"
+    colors.editor.fg           = "#FFEAEA"
+    colors.editor.fg_dark      = "#FFD0AA"
+    colors.editor.selection    = "#750000"
+    colors.editor.contrast     = "#300000"
+    colors.editor.active       = "#440000"
+    colors.editor.border       = "#400000"
+    colors.editor.line_numbers = "#7F3C3C"
+    colors.editor.highlight    = "#550000"
+    colors.editor.disabled     = "#7F3C3C"
+    colors.editor.accent       = "#00BCD4"
+    colors.syntax.comments     = "#7F6451"
+
+    colors.main.gray = "#7F6451"
+
 else vim.g.material_style = "oceanic"
     -- Oceanic theme style
 

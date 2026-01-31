@@ -33,7 +33,8 @@ M.toggle_style = function()
         "lighter",
         "palenight",
         "oceanic",
-        "deep ocean"
+        "deep ocean",
+        "volcano"
     }
     vim.g.material_style_iterator = (vim.g.material_style_iterator % (#styles)) + 1
     M.change_style(styles[vim.g.material_style_iterator])
